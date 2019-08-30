@@ -29,7 +29,6 @@ def callback():
         sendText(user,'จะไปไหนก็ไป')
     else :
         sendText(user,'ว่าไงนะแแก')
-
     return '',200
 
 def sendText(user, text):
